@@ -1,0 +1,31 @@
+{
+    "name": "lamm/lamm-cdn",
+    "description": "ZF2 Module cdn",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zend",
+        "module",
+        "cdn"
+    ],
+    "homepage": "https://github.com/luismayta/LammCdn",
+    "authors": [
+        {
+            "name": "Luis Alberto Mayta Mamani",
+            "email": "slovacus@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "LammCdn": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
